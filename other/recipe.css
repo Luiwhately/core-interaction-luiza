@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(243, 207, 153);
+}
+
+image{
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+
+    position:fixed;
+    flex-direction:row;
+    transform-origin: center;
+    float: right;
+    margin-left: 200px;
+    margin-top: 2px;
+    opacity: 100%;
+}
