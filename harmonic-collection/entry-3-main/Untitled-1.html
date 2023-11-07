@@ -73,8 +73,31 @@
 </div>
 <br>
 
-<button class="styled-button"><a href="spinpage.html" target="_blank"> Spin your daily wheel </a></button>
 
+    <button id="randomPageButton">Spin your whill</button>
+
+    <script>
+        //use of chat gpt for javascript
+        const pageURLs = [
+            'file:///Users/luizawhately/Desktop/LuizaWhately_cif23/core-interaction-luiza/harmonic-collection/entry-2-blue/bluepage.html',
+            'file:///Users/luizawhately/Desktop/LuizaWhately_cif23/core-interaction-luiza/harmonic-collection/entry-4-yellow/yellowpage.html',
+            'file:///Users/luizawhately/Desktop/LuizaWhately_cif23/core-interaction-luiza/harmonic-collection/entry-7-green/greenpage.html',
+            'file:///Users/luizawhately/Desktop/LuizaWhately_cif23/core-interaction-luiza/harmonic-collection/entry-5-purple/purplepage.html',
+            'file:///Users/luizawhately/Desktop/LuizaWhately_cif23/core-interaction-luiza/harmonic-collection/entry-6-orange/orangpage.html',
+            'file:///Users/luizawhately/Desktop/LuizaWhately_cif23/core-interaction-luiza/harmonic-collection/entry-8-red/redpage.html'
+        ];
+
+       
+        function navigateToRandomPage() {
+            const randomIndex = Math.floor(Math.random() * pageURLs.length);
+            const randomURL = pageURLs[randomIndex];
+            window.location.href = randomURL;
+        }
+
+        
+        const randomPageButton = document.getElementById('randomPageButton');
+        randomPageButton.addEventListener('click', navigateToRandomPage);
+    </script>
 
 </body>
-    </html>
+</html>

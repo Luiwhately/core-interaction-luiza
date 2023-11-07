@@ -49,6 +49,7 @@ h3{
     color: antiquewhite;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+    
 }
 
 
@@ -111,61 +112,39 @@ h3{
     color: rgba(121, 17, 17, 0.5);
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:bolder;
+    font-weight:200;
 
 }
 
-
-.styled-button{
-    width:400px;
-    height: 400px;
-    background-color: rgba(209, 207, 197, 0.625);
-    margin-top: 5px;
-    margin-left: 600px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:bolder;
-    border: none;
-    border-radius: 50%;
-
-}
-
-button:hover {
-    background-color: #d3d2cfbb;
-    color: #e0e0e0;
-    transition: background-color 0.5s;
+#randomPageButton:hover {
+    color: #141414;
     font-size: 180%;
     transition: font-size 1.5s;
     orientation: 200%
     transition: size-adjust 1.5s;
+
 }
 
 .unique-rectangle:hover{
-    background-color: rgba(143, 118, 9, 0.625);
+    background-color: rgba(168, 139, 9, 0.901);
     transition: background-color 0.5s;
+    
 }
 
 .rectangle:hover{
-    background-color: rgba(143, 118, 9, 0.625);
+    background-color: rgba(168, 139, 9, 0.901);
     transition: background-color 0.5s;
+    font-weight: 300;
 }
 
 
 .rectangle2:hover{
-    background-color: rgba(143, 118, 9, 0.625);
+    background-color: rgba(168, 139, 9, 0.901);
     transition: background-color 0.5s;
 }
 
 .rectangle3:hover {
-    background-color:rgba(146, 135, 92, 0.588);
+    background-color:rgba(168, 139, 9, 0.901);
     color: #e0e0e0;
     cursor: pointer;
     transition: background-color 0.5s;
@@ -194,5 +173,26 @@ button:hover {
   }
 
 
-
+#randomPageButton{
+    width:400px;
+    height: 400px;
+    background-image: url('colorwhill2.gif');
+    background-size:50vmax;
+    background-position:center, 
+    margin-top: 5px;
+    margin-left: 500px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(194, 190, 190);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    border: none;
+    border-radius: 50%;
+}
   
