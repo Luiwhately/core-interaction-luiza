@@ -177,3 +177,22 @@ h1{
     }
 }
 
+#back{
+    width:100px;
+    height: 70px;
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 800px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+   
+    display:flex;
+    align-items: center;
+    color: rgb(194, 190, 190);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    border: none;
+  
+}
