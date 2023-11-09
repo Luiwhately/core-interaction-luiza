@@ -137,7 +137,7 @@ h1{
 }
 .rectangle{
     width: 1100px;
-    height:980px;
+    height:880px;
     background-color: rgba(98, 79, 110, 0.403);
     margin-left: 200px;
     margin-top: 100px;
@@ -147,7 +147,7 @@ h1{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     position: relative;
-    z-index: 2;
+    z-index: 4;
     letter-spacing: 1px;
     line-height: 20px;
 
@@ -177,4 +177,41 @@ h1{
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); 
     z-index: 1;
     filter: brightness(80%);
+}
+
+.back-button{
+   
+    position: relative;
+    margin-left: 1000px;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(108, 108, 169, 0.734);
+    padding: 6px;
+    font-size: 30px;
+    text-align: center;
+
+   
+}
+
+/* made with chat gpt */
+
+#droppingText {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3em;
+    animation: dropAnimation 2s linear infinite;
+}
+
+@keyframes dropAnimation {
+    0% {
+        top: 47vh;
+    }
+    50% {
+        top: 55vh; /* Adjust the value to control how far the text drops */
+    }
+    100% {
+        top: 47vh;
+    }
 }

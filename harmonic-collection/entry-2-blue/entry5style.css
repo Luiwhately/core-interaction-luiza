@@ -127,7 +127,7 @@ body{
 }
 
 h1{
-    font-size: 5rem;
+    font-size:100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-stretch: expanded;
     color:rgba(108, 108, 169, 0.734);
@@ -143,7 +143,6 @@ h1{
     margin-left: 150px;
     margin-top: 100px;
     text-align: center, ;
-    display: fixed;
     color: antiquewhite;
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
@@ -177,22 +176,17 @@ h1{
     }
 }
 
-#back{
-    width:100px;
-    height: 70px;
-    background-color: blue;
-    margin-top: 5px;
-    margin-left: 800px;
-    margin-right: auto;
-    margin-bottom: 5px;
-    padding: 5px;
+.back-button{
    
-    display:flex;
-    align-items: center;
-    color: rgb(194, 190, 190);
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:bolder;
-    border: none;
-  
+    position: relative;
+    margin-left: 1000px;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(108, 108, 169, 0.734);
+    padding: 6px;
+    font-size: 30px;
+    text-align: center;
+
+   
 }
+
