@@ -1,8 +1,168 @@
-body{ 
-    background-image: url(background.entry3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
+.image1{
+        width: 500px;
+        height: 400px;
+        margin: 15px;
+        margin-top: 150px;
+        justify-content:flex-end;
+        justify-content: flex-start;
+        position:relative;
+        flex-direction:row;
+        transform: rotate(160deg);
+        transform-origin: center;
+        float: right;
+        margin-left: -100px;
+        opacity: 60%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); 
+        z-index: 3;
+    }
+    
+    .image2{
+        width: 800px;
+        height: auto;
+        margin: 900px;
+        justify-content:right;
+        position: absolute;
+        opacity: 70%;
+        margin-left: 20px;
+        clip-path: polygon(25% 0%, 80% 0%, 70% 80%, 0% 50%); 
+        margin-top: 80px;
+        transform: rotate(40deg);
+        z-index: 1;
+        filter: brightness(70%) contrast(85%);
+    }
+    
+    .image3{
+        width: 600px;
+        height: auto;
+        display: block; 
+       margin-top: 300px;
+        opacity: 0.4;
+        filter: brightness(70%) contrast(120%);
+        position: relative;
+        flex-direction:row;
+        transform: rotate(80deg);
+        transform-origin: center;
+        float: right;
+        margin-left: 100px;
+        clip-path:polygon(5% 0%, 80% 0%, 70% 80%, 0% 50%)
+        
+    
+    
+    }
+    
+    .image4{
+        width: 700px;
+        height: auto;
+        display:flex; 
+        opacity: 0.5;
+        filter: brightness(80%) contrast(100%);
+        position:relative;
+        flex-direction:column-reverse;
+        transform-origin: center;
+        align-items: end;
+        float: right;
+        margin-left: -130px;
+        margin-top: -450px;
+        clip-path: polygon(60% 0%, 100% 28%, 82% 100%, 18% 100%, 0% 38%);
+        transform: rotate(20deg);
+        z-index: 1;
+        
+    }
+    
+    .image5{
+      
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 700px;
+        height: auto;
+        display:flex; 
+        opacity: 0.4;
+        filter: brightness(60%) contrast(70%);
+        position:relative;
+        flex-direction:row;
+        transform: rotate(70deg);
+        transform-origin: center;
+        float: right;
+        margin-left: 50px;
+        margin-top:-320px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        z-index: 1;
+    }
+    
+    
+    .image6{
+        width: 700px;
+        height: auto;
+        display:flex;  
+        opacity: 0.6;
+        filter: brightness(80%) contrast(100%);
+        position:absolute;
+        flex-direction:column-reverse;
+        transform: rotate(120deg);
+        transform-origin:200px;
+        align-items: end;
+        float: right;
+        margin-left: 100px;
+        margin-top: 700px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        z-index: 3;
+    }
+    
+    .image7{
+        width: 640px;
+        height: 400px;
+        margin: 15px;
+        margin-top: -180px;
+        justify-content:flex-end;
+        justify-content: flex-start;
+        position:relative;
+        flex-direction:row;
+        transform: rotate(170deg);
+        transform-origin: center;
+        float: right;
+        margin-left: -10px;
+        opacity: 60%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); 
+        z-index: 1;
+        filter: brightness(70%);
+    
+    }
+    .image8{
+        width: 800px;
+        height: auto;
+        margin: 900px;
+        justify-content:center;
+        position: absolute;
+        opacity: 40%;
+        margin-left: 700px;
+        margin-top: -30px;
+        clip-path: polygon(25% 0%, 80% 0%, 70% 80%, 0% 50%); 
+        transform:rotate (30deg)
+       
+    }
+
+ 
+     .image9{ 
+        width: 800px;
+        height: auto;
+        margin: 900px;
+        justify-content:right;
+        position: absolute;
+        opacity: 70%;
+        margin-left: 650px;
+        clip-path: polygon(25% 0%, 80% 0%, 70% 80%, 0% 50%); 
+        margin-top: 1450px;
+        transform: rotate(40deg);
+        z-index: 1;
+        filter: brightness(40%) contrast(65%);
+    }
+
+
+ 
+body{
+    background-color: rgb(0, 0, 0);
+
     
 }
 
@@ -49,10 +209,10 @@ h3{
 }
 
 .rectangle{
-    width: fit-content;
+    width: 1450px;
     height: 250px;
     background-color: rgba(121, 17, 17, 0.5);
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -64,7 +224,7 @@ h3{
     color: antiquewhite;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    
+    position: relative;
 }
 
 
