@@ -1,9 +1,10 @@
 
+
 .image1{
         width: 500px;
         height: 400px;
         margin: 15px;
-        margin-top: 150px;
+        margin-top: -1150px;
         justify-content:flex-end;
         justify-content: flex-start;
         position:relative;
@@ -24,9 +25,9 @@
         justify-content:right;
         position: absolute;
         opacity: 70%;
-        margin-left: 20px;
+        margin-left: -120px;
         clip-path: polygon(25% 0%, 80% 0%, 70% 80%, 0% 50%); 
-        margin-top: 80px;
+        margin-top: -1080px;
         transform: rotate(40deg);
         z-index: 1;
         filter: brightness(70%) contrast(85%);
@@ -36,7 +37,7 @@
         width: 600px;
         height: auto;
         display: block; 
-       margin-top: 300px;
+       margin-top: -800px;
         opacity: 0.4;
         filter: brightness(70%) contrast(120%);
         position: relative;
@@ -62,12 +63,11 @@
         transform-origin: center;
         align-items: end;
         float: right;
-        margin-left: -130px;
-        margin-top: -450px;
+        margin-left: -150px;
+        margin-top: -850px;
         clip-path: polygon(60% 0%, 100% 28%, 82% 100%, 18% 100%, 0% 38%);
         transform: rotate(20deg);
-        z-index: 1;
-        
+    
     }
     
     .image5{
@@ -85,7 +85,7 @@
         transform-origin: center;
         float: right;
         margin-left: 50px;
-        margin-top:-320px;
+        margin-top:-620px;
         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
         z-index: 1;
     }
@@ -104,27 +104,23 @@
         align-items: end;
         float: right;
         margin-left: 100px;
-        margin-top: 700px;
+        margin-top: 400px;
         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
         z-index: 3;
     }
     
     .image7{
         width: 640px;
-        height: 400px;
-        margin: 15px;
-        margin-top: -180px;
+        height:auto;
+        margin-top: -380px;
         justify-content:flex-end;
-        justify-content: flex-start;
         position:relative;
         flex-direction:row;
         transform: rotate(170deg);
         transform-origin: center;
-        float: right;
         margin-left: -10px;
-        opacity: 60%;
+        opacity: 70%;
         clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); 
-        z-index: 1;
         filter: brightness(70%);
     
     }
@@ -187,12 +183,10 @@ h1{
     100% { color: purple; }
   }
   
-  /* Apply the animation to the title element */
+  
   .h1{
     animation: changeColor 0.5s linear infinite;
   }
-
-
 
 
 h3{
