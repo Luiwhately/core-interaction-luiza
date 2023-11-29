@@ -118,7 +118,7 @@
         flex-direction:row;
         transform: rotate(170deg);
         transform-origin: center;
-        margin-left: -10px;
+        margin-left: 10px;
         opacity: 70%;
         clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); 
         filter: brightness(70%);

@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); 
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: -50px; 
+    padding: 50px; 
+}
+
+
+
+.grid-item1 {
+    background-color: #ce0909;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); 
+    transform: rotate(189deg);
+}
+
+.grid-item1:hover{
+ font-size: 50px;
+ transition:2.5s;
+ padding: 100px
+
+}
+
+.grid-item2 {
+    background-color: #cd540e;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    clip-path: polygon(25% 0%, 80% 0%, 70% 80%, 0% 50%);
+    transform: rotate(40deg);
+}
+.grid-item2:hover{
+    font-size: 50px;
+    transition:2s;
+    padding: 100px
+   }
+.grid-item3 {
+    background-color: #e0ad16;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    clip-path: polygon(0% 50%, 80% 0%, 70% 80%, 0% 50%);
+    transform: rotate(320deg);
+    
+}
+.grid-item3:hover{
+    font-size: 50px;
+    transition:2s;
+    padding: 100px
+   }
+
+
+.grid-item4 {
+    background-color: #288a07;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    clip-path: polygon(90% 10%, 90% 30%, 70% 80%, 5% 50%);
+    transform: rotate(120deg);
+}
+.grid-item4:hover{
+    font-size: 50px;
+    transition:2s;
+    padding: 100px
+       
+   }
+.grid-item5 {
+    background-color: #0d15b1;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    clip-path: polygon(80% 40%, 90% 50%, 70% 80%, 0% 50%);
+    transform: rotate(90deg);
+}
+
+.grid-item5:hover{
+    font-size: 50px;
+    transition:2s;
+    padding: 100px
+   }
+.grid-item6 {
+    background-color: #7a0eb0;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    clip-path: polygon(0% 0%, 90% 30%, 70% 80%, 5% 50%);
+    transform: rotate(0deg);
+}
+
+.grid-item6:hover{
+    font-size: 50px;
+    transition:2s;
+    padding: 100px
+       
+   }
+.grid-item7 {
+    background-color: #ae1886;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    clip-path: polygon(40% 0%, 90% 0%, 20% 100%, 5% 50%);
+    transform: rotate(0deg);
+}
+.grid-item7:hover{
+    font-size: 50px;
+    transition:2.5s;
+    padding: 100px
+   }
+.grid-item8 {
+    background-color: #512101;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    clip-path: polygon(40% 0%, 90% 40%, 0% 100%, 5% 50%);
+    transform: rotate(70deg);
+}
+.grid-item8:hover{
+    font-size: 50px;
+    transition:2.5s;
+    padding: 100px
+   }
+.grid-item9 {
+    background-color: #3fc5b3;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    clip-path: polygon(40% 0%, 80% 0%, 70% 80%, 0% 50%);
+    transform: rotate(189deg);
+}
+.grid-item9:hover{
+    font-size: 50px;
+    transition:2.5s;
+    padding: 100px
+   }
+.grid-item10 {
+    background-color: #ffffff;
+    color: #585858;
+    padding: 60px;
+    text-align: center;
+    clip-path: polygon(0% 30%, 100% 0%, 40% 80%, 0% 100%); 
+    transform: rotate(0deg);
+}
+.grid-item10:hover{
+    font-size: 50px;
+    transition:2.5s;
+    padding: 100px
+   }
+
+
