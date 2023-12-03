@@ -144,7 +144,7 @@ h1{
     text-align: center, ;
     display: fixed;
     color: antiquewhite;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     z-index: 4;
