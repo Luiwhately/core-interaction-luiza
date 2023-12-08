@@ -121,7 +121,7 @@
     z-index: 3;
 }
 body{
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(255, 255, 255);
     
 }
 
@@ -181,7 +181,7 @@ h1{
     margin-left: 1000px;
     font-size: 5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgba(108, 108, 169, 0.734);
+    color:rgba(0, 0, 0, 0.734);
     padding: 6px;
     font-size: 30px;
     text-align: center;

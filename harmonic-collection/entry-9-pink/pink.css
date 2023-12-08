@@ -121,7 +121,7 @@
    
 }
 body{
-    background-color: rgb(150, 43, 111);
+    background-color: rgb(250, 112, 204);
     
 }
 
@@ -129,7 +129,7 @@ h1{
     font-size:100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-stretch: expanded;
-    color:rgba(175, 83, 164, 0.734);
+    color:rgba(175, 34, 158, 0.532);
     position:fixed;
     margin-top: 40px;
     margin-left: 100px;

@@ -45,7 +45,7 @@
     float: right;
     margin-left: 90px;
     clip-path:polygon(30% 0%, 80% 0%, 40% 90%, 0% 80%)
-    z-index: 1;
+   
 }
 
 
@@ -118,7 +118,7 @@
     margin-top: 850px;
     clip-path: polygon(25% 0%, 80% 0%, 70% 80%, 0% 50%); 
     transform:rotate (30deg)
-    z-index: 3;
+
 }
 body{
     background-color: rgb(52, 14, 73);
@@ -137,14 +137,14 @@ h1{
 }
 .rectangle{
     width: 1100px;
-    height:880px;
+    height:1100px;
     background-color: rgba(98, 79, 110, 0.403);
     margin-left: 200px;
     margin-top: 100px;
     text-align: center, ;
     display: fixed;
     color: antiquewhite;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     z-index: 4;
@@ -206,12 +206,12 @@ h1{
 
 @keyframes dropAnimation {
     0% {
-        top: 47vh;
+        top: 470px;
     }
     50% {
-        top: 55vh; /* Adjust the value to control how far the text drops */
+        top: 580px; 
     }
     100% {
-        top: 47vh;
+        top: 470px;
     }
 }
