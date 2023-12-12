@@ -201,7 +201,7 @@ h3{
 }
 
 .rectangle{
-    width: 1450px;
+    width: 1550px;
     height: 250px;
     background-color: rgba(121, 17, 17, 0.5);
     margin-top: 0px;
@@ -244,7 +244,7 @@ z-index: 3;
 
 
 .rectangle2{
-    width: fit-content;
+    width: 1550px;
     height: 250px;
     background-color: rgba(121, 17, 17, 0.5);
     margin-top: 5px;
