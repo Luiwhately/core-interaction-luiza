@@ -158,6 +158,19 @@ h1{
 
 }
 
+@media (max-width: 414px) {
+   
+    .rectangle {
+      width: 300%;
+      height: 2000px; 
+    }
+
+.collage-container{
+ width: 500%;
+ height: auto;
+}
+}
+
 .wave-text {
     font-size: 1.5em;
     font-weight: bold;
