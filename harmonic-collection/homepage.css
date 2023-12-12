@@ -2,8 +2,6 @@
  
 body{
     background-color: rgb(0, 0, 0);
-
-    
 }
 
 
@@ -74,7 +72,7 @@ z-index: 2;
     font-size: 180%;
     transition: font-size 1.5s;
     orientation: 200%
-    transition: size-adjust 1.5s;
+    transition size-adjust 1.5s;
 
 }
 
@@ -87,19 +85,9 @@ z-index: 2;
   }
   
 
-  .blinking-text {
-    animation: blink 2s linear infinite;
-}
-
 .color-changing-text {
     color: rgba(121, 17, 17, 0.5);
     transition: color 0.5s;
-  }
-  
-
-  .color-changing-text:hover {
-    color:rgba(154, 144, 7, 0.778);
-    cursor:auto;
   }
 
 

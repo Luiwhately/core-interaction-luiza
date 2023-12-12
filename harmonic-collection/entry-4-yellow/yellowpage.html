@@ -15,12 +15,11 @@
     <div class="collage-container">
 
     <img src="yellow1.png" alt="image1" class="image1">
-    <img src="yellow2.png" alt="image2" class="image2">
     <img src="yellow3.png" alt="image3" class="image3">
     <img src="yellow4.png" alt="image4" class="image4">
     <img src="yellow8.png" alt="image5" class="image5">
     <img src="yellow6.png" alt="image6" class="image6">
-    <img src="yellow7.png" alt="image8" class="image8">
+  
 
     </div>
 
@@ -58,10 +57,35 @@
 </pre>
 </p>
 
-
-
-
     </div>
+    <button id="randomPageButton">Spin your wheel</button>
+
+    <script>
+        //use of chat gpt for javascript
+        const pageURLs = [
+            '../entry-2-blue/bluepage.html',
+            '../entry-7-green/greenpage.html',
+            '../entry-5-purple/purplepage.html',
+            '../entry-6-orange/orangpage.html',
+            '../entry-8-red/redpage.html',
+            '../entry-9-pink/pink.html',
+            '../entry-10-brown/brown.html',
+            '../entry-11-black/black.html',
+            '../entry-12-white/white.html',
+        ];
+
+       
+        function navigateToRandomPage() {
+            const randomIndex = Math.floor(Math.random() * pageURLs.length);
+            const randomURL = pageURLs[randomIndex];
+            window.location.href = randomURL;
+        }
+
+        
+        const randomPageButton = document.getElementById('randomPageButton');
+        randomPageButton.addEventListener('click', navigateToRandomPage);
+    </script>
+
 </body>
 
 </html>

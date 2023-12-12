@@ -71,8 +71,34 @@
 
 
     </div>
-
-
 </body>
+<button id="randomPageButton">Spin your wheel</button>
+
+
+<script>
+    //use of chat gpt for javascript
+    const pageURLs = [
+        '../entry-2-blue/bluepage.html',
+        '../entry-4-yellow/yellowpage.html',
+        '../entry-7-green/greenpage.html',
+        '../entry-5-purple/purplepage.html',
+        '../entry-6-orange/orangpage.html',
+        '../entry-8-red/redpage.html',
+        '../entry-9-pink/pink.html',
+        '../entry-10-brown/brown.html',
+        '../entry-11-black/black.html',
+    ];
+
+   
+    function navigateToRandomPage() {
+        const randomIndex = Math.floor(Math.random() * pageURLs.length);
+        const randomURL = pageURLs[randomIndex];
+        window.location.href = randomURL;
+    }
+
+    
+    const randomPageButton = document.getElementById('randomPageButton');
+    randomPageButton.addEventListener('click', navigateToRandomPage);
+</script>
 
 </html>
