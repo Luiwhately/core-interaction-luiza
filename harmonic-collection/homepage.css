@@ -1,158 +1,4 @@
 
-
-.image1{
-        width: 500px;
-        height: 400px;
-        margin: 15px;
-        margin-top: -1150px;
-        justify-content:flex-end;
-        justify-content: flex-start;
-        position:relative;
-        flex-direction:row;
-        transform: rotate(160deg);
-        transform-origin: center;
-        float: right;
-        margin-left: -100px;
-        opacity: 60%;
-        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); 
-      
-    }
-    
-    .image2{
-        width: 800px;
-        height: auto;
-        margin: 900px;
-        justify-content:right;
-        position: absolute;
-        opacity: 70%;
-        margin-left: -120px;
-        clip-path: polygon(25% 0%, 80% 0%, 70% 80%, 0% 50%); 
-        margin-top: -1080px;
-        transform: rotate(40deg);
-       
-        filter: brightness(70%) contrast(85%);
-    }
-    
-    .image3{
-        width: 600px;
-        height: auto;
-        display: block; 
-       margin-top: -800px;
-        opacity: 0.4;
-        filter: brightness(70%) contrast(120%);
-        position: relative;
-        flex-direction:row;
-        transform: rotate(80deg);
-        transform-origin: center;
-        float: right;
-        margin-left: 100px;
-        clip-path:polygon(5% 0%, 80% 0%, 70% 80%, 0% 50%)
-        
-    
-    
-    }
-    
-    .image4{
-        width: 700px;
-        height: auto;
-        display:flex; 
-        opacity: 0.5;
-        filter: brightness(80%) contrast(100%);
-        position:relative;
-        flex-direction:column-reverse;
-        transform-origin: center;
-        align-items: end;
-        float: right;
-        margin-left: -150px;
-        margin-top: -850px;
-        clip-path: polygon(60% 0%, 100% 28%, 82% 100%, 18% 100%, 0% 38%);
-        transform: rotate(20deg);
-    
-    }
-    
-    .image5{
-      
-        flex-direction: row-reverse;
-        justify-content: flex-end;
-        width: 700px;
-        height: auto;
-        display:flex; 
-        opacity: 0.4;
-        filter: brightness(60%) contrast(70%);
-        position:relative;
-        flex-direction:row;
-        transform: rotate(70deg);
-        transform-origin: center;
-        float: right;
-        margin-top:-1020px;
-        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-        
-    }
-    
-    
-    .image6{
-        width: 700px;
-        height: auto;
-        display:flex;  
-        opacity: 0.6;
-        filter: brightness(80%) contrast(100%);
-        position:absolute;
-        flex-direction:column-reverse;
-        transform: rotate(120deg);
-        transform-origin:200px;
-        align-items: end;
-        float: right;
-        margin-left: 100px;
-        margin-top: 400px;
-        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-      
-    }
-    
-    .image7{
-        width: 640px;
-        height:auto;
-        margin-top: -380px;
-        justify-content:flex-end;
-        position:relative;
-        flex-direction:row;
-        transform: rotate(170deg);
-        transform-origin: center;
-        margin-left: 10px;
-        opacity: 70%;
-        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); 
-        filter: brightness(70%);
-    
-    }
-    .image8{
-        width: 800px;
-        height: auto;
-        margin: 900px;
-        justify-content:center;
-        position: absolute;
-        opacity: 40%;
-        margin-left: 700px;
-        margin-top: -30px;
-        clip-path: polygon(25% 0%, 80% 0%, 70% 80%, 0% 50%); 
-        transform:rotate (30deg)
-       
-    }
-
- 
-     .image9{ 
-        width: 800px;
-        height: auto;
-        margin: 900px;
-        justify-content:right;
-        position: absolute;
-        opacity: 70%;
-        margin-left: 650px;
-        clip-path: polygon(25% 0%, 80% 0%, 70% 80%, 0% 50%); 
-        margin-top: 1450px;
-        transform: rotate(40deg);
-        filter: brightness(40%) contrast(65%);
-    }
-
-
  
 body{
     background-color: rgb(0, 0, 0);
@@ -169,7 +15,7 @@ h1{
     margin-top: 5px;
     margin-bottom: 10px;
     margin-right: 50px;
-    margin-left: 42px;
+    margin-left: 100px;
     color:rgba(92, 25, 25, 0.864);
 }
 
@@ -200,51 +46,9 @@ h3{
 
 }
 
-.rectangle{
-    width: 1550px;
-    height: 250px;
-    background-color: rgba(121, 17, 17, 0.5);
-    margin-top: 0px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: antiquewhite;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    z-index: 4;
-}
-
-
-
-.unique-rectangle{
-    width:max-content;
-    height: 550px;
-    background-color: rgba(40, 46, 156, 0.5);
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: antiquewhite;
-    font-size: 20px;
-    font-family:'Courier New', Courier, monospace;
-z-index: 3;
-}
-
-
 
 .rectangle2{
-    width: 1550px;
+    width: 1650px;
     height: 250px;
     background-color: rgba(121, 17, 17, 0.5);
     margin-top: 5px;
@@ -264,25 +68,6 @@ z-index: 2;
 }
 
 
-.rectangle3{
-    width:700px;
-    height: 150px;
-    background-color: rgba(209, 207, 197, 0.625);
-    margin-top: 5px;
-    margin-left: 400px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(121, 17, 17, 0.5);
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:200;
-
-}
 
 #randomPageButton:hover {
     color: #141414;
@@ -293,30 +78,7 @@ z-index: 2;
 
 }
 
-.unique-rectangle:hover{
-    background-color: rgba(168, 139, 9, 0.901);
-    transition: background-color 0.5s;
-    
-}
 
-.rectangle:hover{
-    background-color: rgba(168, 139, 9, 0.901);
-    transition: background-color 0.5s;
-    font-weight: 300;
-}
-
-
-.rectangle2:hover{
-    background-color: rgba(168, 139, 9, 0.901);
-    transition: background-color 0.5s;
-}
-
-.rectangle3:hover {
-    background-color:rgba(168, 139, 9, 0.901);
-    color: #e0e0e0;
-    cursor: pointer;
-    transition: background-color 0.5s;
-}
 
 @keyframes blink {
     0% { opacity: 0; } 
@@ -342,8 +104,8 @@ z-index: 2;
 
 
 #randomPageButton{
-    width:400px;
-    height: 400px;
+    width:600px;
+    height: 600px;
     background-image: url('colorwhill3.gif');
     background-size:50vmax;
     background-position:center;

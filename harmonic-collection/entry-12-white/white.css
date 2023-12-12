@@ -151,6 +151,20 @@ h1{
     line-height: 20px;
 
 }
+
+@media (max-width: 414px) {
+   
+    .rectangle {
+      width: 300%;
+      height: 2000px; 
+    }
+
+.collage-container{
+ width: 500%;
+ height: auto;
+}
+}
+
 .rectangle:hover{
     background-color: rgba(239, 239, 239, 0.709);
     transition: background-color 0.3s;

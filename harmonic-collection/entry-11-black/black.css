@@ -154,6 +154,19 @@ h1{
 
 }
 
+@media (max-width: 414px) {
+   
+    .rectangle {
+      width: 300%;
+      height: 2000px; 
+    }
+
+.collage-container{
+ width: 500%;
+ height: auto;
+}
+}
+
 .upside-down-text {
     transform: rotate(180deg);
     font-size: 100%;
