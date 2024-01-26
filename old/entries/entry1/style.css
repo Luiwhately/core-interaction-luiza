@@ -1,0 +1,41 @@
+
+
+.header{
+    width: 1800px;
+    background: rgb(9, 9, 82);
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    color:azure;
+    word-spacing:20px;
+    letter-spacing: 4px;
+    text-align:center;
+    margin: 0px;
+
+    
+
+}
+
+
+
+.body{
+    background-color: rgb(226, 203, 31);
+    font-size: 15px;
+    color: rgb(21, 20, 20)
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.button{
+    text-align: center;
+    width: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: medium;
+    color:beige;
+    background-color:rgb(9, 9, 82);
+
+    
+
+}
+

@@ -1,0 +1,49 @@
+header{
+    width: 50%;
+    font-size: larger;
+    font-family: Arial, sans-serif;
+    color: antiquewhite;
+    
+}
+
+h2{line-height: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    font-size: large;
+    font-stretch: semi-condensed;
+    color:antiquewhite; }
+
+h4{
+    line-height: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    font-size: medium;
+    font-stretch: semi-condensed;
+    color:antiquewhite;
+}
+
+h3{
+    line-height: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    font-size: medium;
+    font-stretch: semi-condensed;
+    color:antiquewhite;
+}
+body{
+    background-color: rgb(137, 10, 10);
+
+        background-image: url("woman.red.png"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+}
+
+img{
+    width: 600px; 
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the image */
+    margin: 20px; /* Add margin to create spacing around the image */
+    display: block;
+
+}

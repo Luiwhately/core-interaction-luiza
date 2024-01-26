@@ -1,0 +1,198 @@
+body{ 
+    background-image: url(background.entry3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+h1{ 
+    font-size: 100px;
+    font-weight:lighter;
+    font-display: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 42px;
+    color:rgba(92, 25, 25, 0.864);
+}
+
+
+h3{
+    font-size: 30px;
+    font-weight:normal;
+    font-display: right;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(211, 212, 207);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+.rectangle{
+    width: fit-content;
+    height: 250px;
+    background-color: rgba(121, 17, 17, 0.5);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.unique-rectangle{
+    width:max-content;
+    height: 550px;
+    background-color: rgba(40, 46, 156, 0.5);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+
+
+.rectangle2{
+    width: fit-content;
+    height: 250px;
+    background-color: rgba(121, 17, 17, 0.5);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:normal;
+
+}
+
+
+.rectangle3{
+    width:700px;
+    height: 150px;
+    background-color: rgba(209, 207, 197, 0.625);
+    margin-top: 5px;
+    margin-left: 400px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(121, 17, 17, 0.5);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+
+}
+
+
+.styled-button{
+    width:400px;
+    height: 400px;
+    background-color: rgba(209, 207, 197, 0.625);
+    margin-top: 5px;
+    margin-left: 600px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    border: none;
+    border-radius: 50%;
+
+}
+
+button:hover {
+    background-color: #d3d2cfbb;
+    color: #e0e0e0;
+    transition: background-color 0.5s;
+    font-size: 180%;
+    transition: font-size 1.5s;
+    orientation: 200%
+    transition: size-adjust 1.5s;
+}
+
+.unique-rectangle:hover{
+    background-color: rgba(143, 118, 9, 0.625);
+    transition: background-color 0.5s;
+}
+
+.rectangle:hover{
+    background-color: rgba(143, 118, 9, 0.625);
+    transition: background-color 0.5s;
+}
+
+
+.rectangle2:hover{
+    background-color: rgba(143, 118, 9, 0.625);
+    transition: background-color 0.5s;
+}
+
+.rectangle3:hover {
+    background-color:rgba(146, 135, 92, 0.588);
+    color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+@keyframes blink {
+    0% { opacity: 0; } 
+    50% { opacity: 1; } 
+    100% { opacity: 0; } 
+  }
+  
+
+  .blinking-text {
+    animation: blink 2s linear infinite;
+}
+
+.color-changing-text {
+    color: rgba(121, 17, 17, 0.5);
+    transition: color 0.5s;
+  }
+  
+
+  .color-changing-text:hover {
+    color:rgba(154, 144, 7, 0.778);
+    cursor:auto;
+  }
+
+
+
+  
